@@ -68,6 +68,67 @@ img{
 
 /* modifiche al css   */
 
+/*prova*/
+@media screen and (max-width:1020px) and (min-width:421px){
+
+*{
+  box-sizing: border-box;
+}
+body{
+  background: red;
+}
+  .container .row{
+    color: orange;
+    font-size: 1.5em;
+    width: 90%;
+    /*margin-left: 10%;*/
+
+  }
+
+  #lezioni.container .row > h1{
+    margin-right: 20%;
+  }
+
+  #lezioni .row > .left,
+  #lezioni .row > .right {
+    float: none;
+    width: 80%;
+  }
+
+  #lezioni.container .row{
+    background: lightgreen;
+    width: 100%
+  }
+
+  #lezioni.container .row > img{
+
+    margin-right: 15%;
+    width: 80%;
+  }
+
+  #steps .row > .left,
+  #steps .row > .central,
+  #steps .row > .right
+  {
+    width: 100%;
+    float: none;
+  }
+
+  #steps.container .row > img{
+    margin-left: 18%;
+    width: 50%;
+  }
+
+    #why.container > img{
+      width: 35%;
+      margin-left: 16%;
+
+    }
+
+
+}
+/*fine prova */
+
 @media screen and (max-width:420px){
 
   body{
@@ -77,22 +138,15 @@ img{
 .container .row{
   color: white;
   font-size: 1.5em;
-
+  width: 80%;
 }
 
 .container .row > h1{
   display: block;
-  font-size: 1.5em;
-
 }
 
 #lezioni.container .row > h1{
-  margin-right: 20%;
-
-}
-.container .row{
-  width: 100%;
-  margin: auto;
+  margin-right: 10%;
 }
 
 #lezioni.container{
@@ -122,19 +176,27 @@ img{
     width: 100%;
     float: none;
   }
-  #steps.container .row img{
-    margin-left: 18%;
+
+  #steps.container .row > img{
+    margin-left: 50%;
+    width: 45%;
   }
 
   #why.container .row{
+    width: 100%;
     background: rgb(148, 139, 14);
+
   }
 
+  #why.container > img{
+    width: 35%;
+    margin-left: 28%;
 
+  }
 
-.container .row img {
+.container .row > img {
     display: block;
-    width: 60%;
-    margin-left: 10%;
+
   }
+
 }
