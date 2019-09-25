@@ -74,37 +74,40 @@ img{
 *{
   box-sizing: border-box;
 }
+
 body{
   background: red;
 }
-  .container .row{
+
+img{
+  width: 60%;
+  height: auto;
+  box-sizing: border-box;
+}
+
+ .container .row{
     color: orange;
-    font-size: 1.5em;
-    width: 90%;
+    font-size: 1.2em;
+    width: 100%;
     /*margin-left: 10%;*/
-
-  }
-
-  #lezioni.container .row > h1{
-    margin-right: 20%;
   }
 
   #lezioni .row > .left,
   #lezioni .row > .right {
     float: none;
     width: 80%;
+    margin: auto;
   }
 
-  #lezioni.container .row{
+  #lezioni.container {
     background: lightgreen;
     width: 100%
   }
 
-  #lezioni.container .row > img{
 
-    margin-right: 15%;
-    width: 80%;
-  }
+  /*#lezioni.container .row > h1{
+    margin-right: 20%;
+  }*/
 
   #steps .row > .left,
   #steps .row > .central,
@@ -113,17 +116,6 @@ body{
     width: 100%;
     float: none;
   }
-
-  #steps.container .row > img{
-    margin-left: 18%;
-    width: 50%;
-  }
-
-    #why.container > img{
-      width: 35%;
-      margin-left: 16%;
-
-    }
 
 
 }
@@ -135,37 +127,35 @@ body{
   background: green;
   }
 
-.container .row{
+.row{
   color: white;
-  font-size: 1.5em;
-  width: 80%;
+  font-size: 1em;
+  width: 100%;
 }
 
-.container .row > h1{
-  display: block;
-}
-
-#lezioni.container .row > h1{
-  margin-right: 10%;
+#lezioni.container .row  h1{
+  margin:auto;
 }
 
 #lezioni.container{
   background: rgb(76, 147, 213);
 }
 
-#lezioni.container .row{
+/*#lezioni.container .row{
   margin-left: 20%;
-}
+}*/
 
   #lezioni .row > .left,
   #lezioni .row > .right {
     float: none;
-    width: 60%;
+    width: 90%;
+    margin: auto;
   }
 
-  #lezioni.container .row img{
-    margin-left: 10%;
-    width: 100%;
+  img{
+    width: 60%;
+    height: auto;
+    box-sizing: border-box;
   }
 
 
@@ -177,26 +167,9 @@ body{
     float: none;
   }
 
-  #steps.container .row > img{
-    margin-left: 50%;
-    width: 45%;
-  }
-
   #why.container .row{
     width: 100%;
     background: rgb(148, 139, 14);
-
-  }
-
-  #why.container > img{
-    width: 35%;
-    margin-left: 28%;
-
-  }
-
-.container .row > img {
-    display: block;
-
   }
 
 }
